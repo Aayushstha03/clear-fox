@@ -1,5 +1,5 @@
 #root.root {
-    --tabs-height: 33px;
+    --tabs-height: 36px;
     --tabs-pinned-height: 44px;
     --tabs-margin: 8px;
     --tabs-indent: 18px;
@@ -38,7 +38,7 @@
 #root .TabsPanel .PinnedTabsBar {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 8px 0 0 0;
     padding: 0;
 }
 

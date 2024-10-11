@@ -20,7 +20,6 @@
    outline: 1px solid var(--urlbar-outline) !important;
 }
 
-
 #urlbar[focused="true"] {
    border: 0 !important;
    border-top: 1px solid var(--urlbar-border-top) !important;
