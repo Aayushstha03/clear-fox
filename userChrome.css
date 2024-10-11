@@ -307,7 +307,6 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
    visibility: visible !important;
    display: block !important;
    position: absolute !important;
-   top: 1px !important;
    left: unset !important;
    right: 0 !important;
 }
