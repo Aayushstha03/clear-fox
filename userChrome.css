@@ -1,67 +1,8 @@
-/* @media (prefers-color-scheme:dark) {
-   :root {
-      --bg: #1a1b26;
-
-      --urlbar-bg: #0d0d15;
-      --urlbar-border-top: #000;
-      --urldrop-bg: #0d0d15;
-      --urlbar-border-bottom: #404040;
-      --urlbar-height: 30px;
-      --urlbar-outline: #414868;
-
-      --fullscreen-warn: rgb(25, 25, 25);
-
-      --arrowpanel-background: var(--urlbar-bg) !important;
-      --button-hover-bgcolor: rgba(159, 159, 159, 0.35) !important;
-      --button-active-bgcolor: rgba(255, 255, 255, .2) !important;
-      --button-bgcolor: rgba(117, 117, 117, 0.9) !important;
-      --toolbarbutton-icon-fill-opacity: 0.8 !important;
-      --arrowpanel-border-color: rgb(55, 55, 55) !important;
-      --identity-btn-hover-color: rgba(117, 117, 117) !important;
-
-      --dark-menu-background-color: rgba(34, 34, 36, .5) !important;
-      --dark-menu-border-color: rgb(55, 55, 55) !important;
-      --dark-menuitem-hover-background-color: rgba(159, 159, 159, 0.35) !important;
-   }
-}
-
-@media (prefers-color-scheme:light) {
-   :root {
-      --bg: #f1f5f9;
-
-      --urlbar-bg: #cbd5e1;
-      --urlbar-border-top: #9ca3af;
-      --urlbar-border-bottom: #fff;
-      --urldrop-bg: #cbd5e1;
-      --urlbar-outline: #94a3b8;
-
-      --fullscreen-warn: rgb(25, 25, 25);
-
-      --arrowpanel-background: #e2e8f0 !important;
-      --button-hover-bgcolor: #9699a3 !important;
-      --button-hover-bgcolor: #cbd5e1 !important;
-      --button-active-bgcolor: #cbd5e1 !important;
-      --identity-btn-hover-color: white !important;
-   }
-} */
-
-/* Suppress Connecting/Waiting/Reading/Transerring */
-/* #statuspanel[type="status"] {
-   display: none !important;
- } */
-/* Suppress Link Destination Overlay */
-/* #statuspanel[type="overLink"] {
-   display: none !important;
- } */
-
-
 /* remove thin white line below toolbar */
 #navigator-toolbox {
    border-bottom: none !important;
    margin-bottom: 0 !important;
 }
-
-
 
 /* URL BAR */
 #urlbar,
@@ -101,7 +42,7 @@
 }
 
 #urlbar-container {
-   margin-top: 3px;
+   margin-top: 0px;
    display: initial;
 }
 
@@ -226,14 +167,14 @@
 }
 
 /* Bookmarks Bar */
-#PersonalToolbar {
+/* #PersonalToolbar {
    background-color: var(--bg) !important;
-}
+} */
 
 /* Navigation Bar Separator */
-#navigator-toolbox {
+/* #navigator-toolbox {
    border-color: var(--bg) !important;
-}
+} */
 
 /* Navigation bar Buttons */
 toolbarbutton:hover {
@@ -394,12 +335,11 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
 
 /* Line up the Windows controls with the rest of the icons in the toolbar. */
 :root:not([sizemode="maximized"]) .titlebar-buttonbox-container {
-   padding-top: 3px;
+   padding-top: 0px;
 }
 
 .titlebar-buttonbox {
    z-index: 3 !important;
-   /* padding-right: 3px; */
 }
 
 .titlebar-buttonbox * {
