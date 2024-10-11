@@ -17,7 +17,7 @@
 
 #urlbar {
    border-radius: 8px !important;
-   border: 0 !important;
+   /* border: 0 !important; */
 }
 
 #urlbar:not(.megabar):not([focused="true"]):hover {
@@ -160,11 +160,35 @@
 
 
 /* Navigation Bar */
+/* reducing navbar and items */
 #nav-bar {
+   min-height: 36px !important;
+   height: 36px !important;
+   padding: 0 !important;
+   margin: 0 !important;
+
    background-color: var(--bg) !important;
-   margin-bottom: 0 !important;
    border-bottom: none !important;
 }
+
+#nav-bar toolbarbutton {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#urlbar,
+#searchbar {
+   min-height: 26px !important;
+   height: 26px !important;
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#urlbar-icons>toolbarbutton {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
 
 /* Bookmarks Bar */
 /* #PersonalToolbar {
@@ -343,9 +367,11 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
 }
 
 .titlebar-buttonbox * {
-   border-radius: 5px;
    width: 35px;
-   height: 38px;
+   height: 36px;
+
+   margin: 0;
+   padding: 0;
 }
 
 /* SIDEBERY */
