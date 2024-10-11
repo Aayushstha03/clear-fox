@@ -10,10 +10,10 @@
    border: none !important;
 }
 
-
 #urlbar {
    border-radius: 8px !important;
-   /* border: 0 !important; */
+   border: 0 !important;
+   margin: -1.5px;
 }
 
 #urlbar:not(.megabar):not([focused="true"]):hover {
@@ -112,10 +112,6 @@
    border: 0 !important;
 }
 
-#navigator-toolbox {
-   border: 1 !important;
-}
-
 .titlebar-spacer[type="pre-tabs"] {
    border: 0 !important;
 }
@@ -156,8 +152,8 @@
 /* Navigation Bar */
 /* reducing navbar and items */
 #nav-bar {
-   min-height: 40px !important;
-   height: 40px !important;
+   min-height: 38px !important;
+   height: 38px !important;
    padding: 0 !important;
    margin: 0 !important;
    /* background-color: var(--bg) !important; */
@@ -314,8 +310,7 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
 
 .titlebar-buttonbox * {
    width: 35px;
-   height: 36px;
-
+   height: 38px;
    margin: 0;
    padding: 0;
 }
