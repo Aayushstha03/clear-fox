@@ -35,6 +35,10 @@
     opacity: 1;
 }
 
+#root .TabsPanel {
+    padding: 10px;
+}
+
 #root .TabsPanel .PinnedTabsBar {
     display: flex;
     flex-wrap: wrap;
