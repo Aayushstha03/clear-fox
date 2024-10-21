@@ -4,6 +4,10 @@
    margin-bottom: 0 !important;
 }
 
+#private-browsing-indicator-with-label {
+   display: none;
+}
+
 /* URL BAR */
 #urlbar,
 #urlbar-background {
@@ -337,7 +341,6 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
    visibility: collapse;
    height: 0px;
 }
-
 
 #sidebar-box[positionend] {
    direction: rtl;
