@@ -6,6 +6,7 @@ This project customizes the Firefox browser interface using a custom `userChrome
 
 ### `userChrome.css` Customizations:
 - **Vertical Tabs**: Sideberry is configured to display tabs vertically, with an uncluttered design.
+- **Tab groups**: Support for firefox container and simple tab grouping into spaces(via sideberry).
 - **Toggleable Sidebar**: Sidebar auto-hides and can be toggled for quick access to bookmarks, history, or extensions like Sideberry. A custom keyboard shortcut can be assigned from sideberry. 
 - **Reduced Clutter**: Toolbar icons and navigation buttons (e.g., back, forward, refresh) are styled to have a minimalist look, removing unnecessary borders and visual noise.
 - **Compact Layout**: The gap between the URL bar and the top of the screen is minimized for maximum screen real estate.
