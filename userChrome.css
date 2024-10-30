@@ -358,11 +358,6 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
    direction: rtl;
 }
 
-/* show or hide the splitter that allows to resize the sidebar */
-#sidebar-splitter {
-   display: none;
-}
-
 .sidebar-panel {
    background-color: transparent !important;
 }

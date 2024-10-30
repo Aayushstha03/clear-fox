@@ -40,7 +40,6 @@ This project customizes the Firefox browser interface using a custom `userChrome
 
 If you wish to tweak the customizations further, both the `userChrome.css` and Sideberry CSS files can be easily modified. Some elements you might want to adjust:
 - **Tab Width**: Change the width of vertical tabs in the Sideberry CSS.
-- **Sidebar Auto-Hide Delay**: Modify the hover delay for the sidebar to expand more quickly or slowly.
 - **Toolbar Icon Sizes**: Adjust icon sizes and spacing for a more compact or spaced-out layout.
 
 ## Screenshots
@@ -49,4 +48,7 @@ If you wish to tweak the customizations further, both the `userChrome.css` and S
  
 ![catppuccin theme](<screenshots/Screenshot 2024-10-13 .png>)
 - works great with catppuccin themes as well.
+
+![sidebar border config](<screenshots/sidebar-border.png>)
+- Sidebar Border: If the sidebar border looks unsightly to you, you can change the color of sidebar border to be transparent from firefox color
 ---
